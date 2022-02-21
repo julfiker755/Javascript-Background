@@ -1,10 +1,10 @@
 // Example-1
-var color=document.querySelector("#color");
 var btn=document.querySelector("#button11");
 
-var colorchange=()=>{
-    var color=document.querySelector("#color").value;
-    document.body.style.backgroundColor=color;
-}
+var color=["red","green","orange","blue",'white',"palevioletred","mediumvioletred","orangered"]
 
-//Example-2
+function colorchange(){
+    var num=color[Math.floor(Math.random()*color.length)];
+    document.body.style.backgroundColor=num;
+
+}

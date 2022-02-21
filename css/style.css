@@ -9,57 +9,11 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
-#color{
-    outline:none;
-}
-.color-all {
-    width: 318px;
-    background: #80005f;
-    border-radius: 5px;
-    border: 4px solid white;
-    box-sizing: content-box;
-}
-
-input#color {
-    background: transparent;
-    border: none;
-}
-
-input[type="text"] {
-    color: #ffffff;
-    font-weight: bold;
-}
-
 button#button11 {
-    border: none;
-    background-color: green;
-    color: white;
-    padding: 13px 23px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-left: 61px;
-}
-
-
-/* Example-2*/
-.color-all.ff {
-    /* background: green; */
-    width: 249px;
+    width: 200px;
     height: 50px;
-    position: relative;
-}
-
-input#color {
-    width: 146px;
-    height: 50px;
-    /* border-radius: 40px; */
-}
-
-button.button12 {
-    position: absolute;
     border: none;
-    background: red;
     color: white;
-    font-weight: bold;
-    padding: 13px 19px;
+    border-radius: 50px;
+    background: #0500ff;
 }
