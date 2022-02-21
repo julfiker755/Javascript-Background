@@ -1,13 +1,15 @@
-// Example-1
-//arrow function
-var color1=(a)=>{
-    var a=getComputedStyle(a);
-    var b=a.backgroundColor;
-    document.body.style.backgroundColor=b;
+function red(){
+    document.body.style.backgroundColor="red";
 }
-//Example-2
-var color=(z)=>{
-    var a=getComputedStyle(z);
-    var b=a.backgroundColor;
-   document.querySelector(".our-area").style.backgroundColor=b;
+function green(){
+    document.body.style.backgroundColor="green";
+}
+function orange(){
+    document.body.style.backgroundColor="orange";
+}
+function blue(){
+    document.body.style.backgroundColor="blue";
+}
+function white(){
+    document.body.style.backgroundColor="white";
 }
